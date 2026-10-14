@@ -3,7 +3,7 @@
 
 ## Preparación del archivo .yaml
 
-![Captura desde 2026-10-08 11-18-09.png](../Fotos/Captura%20desde%202026-10-08%2011-18-09.png)
+![Captura desde 2026-10-08 11-18-09.png](Fotos/Captura%20desde%202026-10-08%2011-18-09.png)
 
 Se crea un `compose.yaml` mediante `touch` donde se agregara las siguientes lineas: 
 
@@ -64,7 +64,7 @@ volumes:
   odoo-web-data:
 ```
 ## Instalación odoo
-![Captura desde 2026-10-08 11-19-45.png](../Fotos/Captura%20desde%202026-10-08%2011-19-45.png)
+![Captura desde 2026-10-08 11-19-45.png](Fotos/Captura%20desde%202026-10-08%2011-19-45.png)
 
 Para la montar odoo en un dispositivo se debe lanzar el comando `docker compose up -d`, compose es el archvio que se configuro anteriormente y el `-d` ejecuta los comtenedores en segundoplano dejando la terminal libre.
 
@@ -72,13 +72,13 @@ Para la montar odoo en un dispositivo se debe lanzar el comando `docker compose 
 
 Una vez montado se accedera a la web, sepone en el buscar ip_del_equipo:8069 del dispositivo en el buscador, una vez dentro se realizara una configuración básica de datos personales para completar la configuración de odoo. 
 
-![Captura desde 2026-10-08 11-23-28.png](../Fotos/Captura%20desde%202026-10-08%2011-23-28.png)
-![Captura desde 2026-10-08 11-25-57.png](../Fotos/Captura%20desde%202026-10-08%2011-25-57.png)
+![Captura desde 2026-10-08 11-23-28.png](Fotos/Captura%20desde%202026-10-08%2011-23-28.png)
+![Captura desde 2026-10-08 11-25-57.png](Fotos/Captura%20desde%202026-10-08%2011-25-57.png)
 
 ## Sistema montado.
 Una vez acabado todo se mostrara la siguente pagina con nuestro sistema odoo montado.
 
-![Captura desde 2026-10-14 14-31-29.png](../Fotos/Captura%20desde%202026-10-14%2014-31-29.png)
+![Captura desde 2026-10-14 14-31-29.png](Fotos/Captura%20desde%202026-10-14%2014-31-29.png)
 
 
 
