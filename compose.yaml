@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=triade
+      - POSTGRES_PASSWORD=alanguapo
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data
+
+  web:
+    image: odoo:16
+    ports:
+      - "8069:8069"
+    environment:
+      - HOST=db
+      - USER=triade
+      - PASSWORD=alanguapo
+    depends_on:
+      - db
+    volumes:
+      - odoo-web-data:/var/lib/odoo
+
+volumes:
+  odoo-db-data:
+  odoo-web-data:
